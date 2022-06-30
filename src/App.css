@@ -1,0 +1,99 @@
+.app {
+  text-align: center;
+  margin: 5% 20%;
+  background-color: #DC7633 ;
+  color: black;
+  height: auto;
+  width: auto;
+  padding-top: 2%;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+
+.btnStyle {
+  background-color: #a9a9a9;
+  color: black;
+  width: 20%;
+  font-size: 35px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 7px;
+}
+
+.imgStyle {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+}
+
+.btnStyleCakeOrdered{
+  width: auto;
+  background-color: #e0aa3e ;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.btnStyleIcecreamOrdered{
+  width: auto;
+  background-color: #368BC1 ;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.headerCake{
+  max-width: auto;
+  max-height: auto;
+  background-color: #F7F6F2 ;
+  color: black;
+
+}
+
+.headerIceCream{
+  max-width: auto;
+  max-height: auto;
+  background-color: #DBF1FD ;
+  color: black;
+
+}
+
+.imgStyleCake {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: -20px;
+}
+
+.inputtext{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.headerApi{
+  max-width: auto;
+  max-height: auto;
+  background-color: #D0D3D4 ;
+  color: black;
+
+}
+
