@@ -11,7 +11,7 @@ function FilmListRTK() {
         {isError && error.message}
         {isSuccess &&
         data && data.map((people, i) => 
-        <h1 key={people.id}>{people.name}</h1>,
+        <h4 key={people.id}>{people.name}</h4>,
         )}
     </div>
   )
