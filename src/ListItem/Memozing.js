@@ -15,7 +15,6 @@ export default function Memozing() {
       <button onClick={() => setCount(count + 1)}>Increment counter</button>
       <h3>Input text: {input}</h3>
       <h3>Count: {count}</h3>
-      <hr />
       <ChildComponent count={count} />
     </div>
   );

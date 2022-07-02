@@ -6,6 +6,7 @@ export default function StateLocal() {
         <h1>State local optimize</h1>
       <FormInput />
       <ChildComponent />
+      <hr />
     </div>
   );
 }

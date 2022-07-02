@@ -13,6 +13,7 @@ function FilmListRTK() {
         data && data.map((people, i) => 
         <h4 key={people.id}>{people.name}</h4>,
         )}
+         <hr />
     </div>
   )
 }
