@@ -10,6 +10,7 @@ export const store = configureStore({
     icecream: icecreamReducer,
     [peopleApi.reducerPath]: peopleApi.reducer,
   },
+  //The API slice generates a custom middleware - it manages cache lifetimes and expiration.
   middleware: (getDefaultMiddiware) =>
     getDefaultMiddiware().concat(peopleApi.middleware),
 });
