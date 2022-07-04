@@ -5,6 +5,7 @@ import SaleCompleteItems from './components/SaleCompleteItems';
 import AddProduct from "./components/AddProduct";
 import Counter from "./components/Counter";
 import { FilmList } from "./components/FilmList";
+import Main from "./slices/main";
 
 import FilmListRTK from "./features/people/filmListRTK";
 // import CakeView  from './features/cake/CakeView'
@@ -27,6 +28,7 @@ function App() {
 			<SaleCompleteItems/> */}
       {/* <Counter /> */}
       {/* <FilmList /> */}
+      {/* <Main /> */}
       <Suspense fallback={<div>Loading...</div>}>
       <CakeView />
       <IcecreamView />
